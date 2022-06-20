@@ -3,7 +3,8 @@ import axios from "axios";
 
 export const productsContext = React.createContext(); // Prod который с большой буквы это компонент
 
-const API = "http://localhost:8000/data";
+// const API = "http://localhost:8000/data";
+const API = "https://test-heroku-erkaiym.herokuapp.com/data";
 const INIT_STATE = {
   products: [],
   oneProduct: null,
